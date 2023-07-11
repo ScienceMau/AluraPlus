@@ -154,3 +154,17 @@ body{
     background-color: var(--botao-azul-efeito);
     color:var(--cor-de-fundo);
 }
+
+
+@media (max-width:1200px){
+
+    .body{
+     padding: 1%;
+     flex-direction: column-reverse;
+    background-color: var(--cor-de-fundo);
+    color:var(--branco-principal);
+    font-family:var(--fonte-principal);
+    font-size: 8px;
+    font-weight: 400;
+    }
+}
